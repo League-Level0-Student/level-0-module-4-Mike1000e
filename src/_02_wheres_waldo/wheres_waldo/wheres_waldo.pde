@@ -16,8 +16,10 @@ void draw() {
       // Use this print statement to find out the coordinates of Waldo
       //println("X: " + mouseX + " Y: " + mouseY); 
         if(mouseX < 435 && mouseX > 428 && mouseY > 39 && mouseY < 54&& mousePressed){
+        
           println("Waldo found");
           playWoohoo();
+         
         }else{
           playDoh();
         }
