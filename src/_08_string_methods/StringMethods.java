@@ -2,20 +2,22 @@ package _08_string_methods;
 //    Copyright (c) The League of Amazing Programmers 2013-2017
 //    Level 0
 
-
+import javax.swing.JOptionPane;
 
 public class StringMethods {
 	public static void main(String[] args) {
 		
 		// 1. Create a String variable and initialize it to whatever you want
-
+		String something = "shronks";
 		// 2. Print the 3rd char of your String to the console.
 		//    HINT: .charAt
 		
+		for (int i = 0; i < something.length(); i++) {
+			System.out.println(something.charAt(i));
+		}
 		// 3. Print the length of your String to the console.
 		//    HINT: .length()
-
-		// 4. Using a for loop, print one char at time to the console.
+					// 4. Using a for loop, print one char at time to the console.
 		//    HINT: use .length() to determine how many loops
 
 		
